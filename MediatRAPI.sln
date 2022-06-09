@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRAPI", "MediatRAPI.csproj", "{3B9B48DB-EA1C-4160-9FFF-E5A39C794499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRApi", "MediatRApi.csproj", "{3B9B48DB-EA1C-4160-9FFF-E5A39C794499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
