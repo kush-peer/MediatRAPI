@@ -7,7 +7,9 @@ namespace MediatRAPI.Controllers
     [Route("api/[Controller]")]
     public class ApiControllerBase : ControllerBase
     {
-        private ISender _mediator;
-        protected ISender Mediator => _mediator ??= HttpContext.RequestServices.GetService<ISender>();
+        private ISender _sender;
+        private IPublisher _publisher;
+        protected ISender Sender => _sender ??= HttpContext.RequestServices.GetService<ISender>();
+        protected IPublisher Publisher => _publisher ??= HttpContext.RequestServices.GetService<IPublisher>();
     }
 }

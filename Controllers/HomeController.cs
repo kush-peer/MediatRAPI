@@ -15,7 +15,7 @@ namespace MediatRAPI.Controllers
             try
             {
                 var request = new ApiRequestModel { Number = number };
-                return await Mediator.Send(request);
+                return await Sender.Send(request);
             }
             catch (Exception)
             {
